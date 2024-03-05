@@ -3,38 +3,71 @@ Script meant to run in pypy environment since it's very heavy.
 Here's example of script running:
 
 .................
+
 ...Start of best range...
+
 At streaming distance: 1.490
+
 ratio: 1.778
+
 Max tiles:  16
+
 Min tiles:  9
+
 .................
+
 ...Start of best range...
+
 At streaming distance: 1.500
+
 ratio: 1.455
+
 Max tiles:  16
+
 Min tiles:  11
+
 .................
+
 ...Start of best range...
+
 At streaming distance: 1.536
+
 ratio: 1.333
+
 Max tiles:  16
+
 Min tiles:  12
+
 .................
+
 ...Start of best range...
+
 At streaming distance: 1.542
+
 ratio: 1.231
+
 Max tiles:  16
+
 Min tiles:  13
+
 .................
+
 End of best range: 1.551
+
 .................
+
 .................
+
 ...Start of best range...
+
 At streaming distance: 2.008
+
 ratio: 1.200
+
 Max tiles:  24
+
 Min tiles:  20
+
 
 
 What it means is it's searching for lowest ratio between max possible streamable tiles to minimum streamable tiles. 
